@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          Harshit's <span class="halflogo-color">Portfolio</span>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="page active">
+        <section class="firstSection">
+          <div class="leftSection">
+            Hi,My Name is <span class="purple">Harshit Pandey</span>
+            <div>and I am a</div>
+            <span id="element"></span>
+            <div class="Home-buttons">
+              <a href="Assets/HARSHIT PANDEY RESUME.pdf" download>
+                <button class="btn">Download Resume</button></a
+              >
+              <a href="https://github.com/harshit-oss"
+                ><button class="btn">Visit Github</button></a
+              >
+            </div>
+          </div>
+          <div class="rightSection">
+            <img src="Assets/photo.png" />
+          </div>
+        </section>
+        <hr />
+        <section class="secondSection">
+          <span class="gray">Where I have worked so far</span>
+          <h1>Work Experience</h1>
+
+          <div class="box">
+            <div class="vertical">
+              <img class="image-top" src="Assets/HCLTech.webp" />
+              <div class="vertical-title">
+                Data Engineer Trainee @HCLTech(oct 24'-Mar 25')
+              </div>
+              <div class="vertical-desc">
+                I completed domain training in Data Engineering, gaining
+                hands-on experience with Python, MongoDB, PySpark, Tableau,
+                Power BI, and Oracle SQL. I also learned and applied key
+                concepts of ETL pipelines, cloud platforms, and data
+                warehousing, strengthening my practical knowledge in managing
+                and analyzing data efficiently.
+              </div>
+            </div>
+            <div class="vertical">
+              <img class="image-top" src="Assets/Edunet-Foundation-logo.png" />
+              <div class="vertical-title">
+                AI & Azure Intern @Edunet Foundations(June 25'-July 25')
+              </div>
+              <div class="vertical-desc">
+                I gained practical knowledge of AI concepts and Microsoft Azure
+                cloud services, working on deploying machine learning models
+                using Azure tools. I also learned responsible AI practices and
+                their real-world applications, enhancing my understanding of
+                building and deploying AI solutions ethically and effectively.
+              </div>
+            </div>
+            <div class="vertical">
+              <img class="image-top" src="Assets/delloite.webp" />
+              <div class="vertical-title">
+                Data Analyst Job Simulation @Delloite Australia(Oct 25'-Dec 25')
+              </div>
+              <div class="vertical-desc">
+                I completed a Deloitte data analytics job simulation, where I
+                created a Tableau dashboard and used Excel to analyze data and
+                draw meaningful business conclusions, strengthening my
+                analytical and visualization skills.
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section id="about" class="page">
+        <h2>About Me</h2>
+        <br />
+        <p>
+          Hi, I'm <strong>Harshit Pandey</strong>, a Computer Science student at
+          <strong>RKGIT Ghaziabad</strong>
+          with a strong passion for technology, data-driven solutions, and
+          problem-solving.
+        </p>
+        <br />
+        <p>
+          I am passionate about turning ideas into reality through
+          <strong>technology and problem-solving</strong>. With a strong
+          foundation in <strong>web development</strong> and a growing expertise
+          in <strong>data analytics and machine learning</strong>, I enjoy
+          creating solutions that are both
+          <strong>efficient and user-friendly</strong>. My goal is to
+          continuously learn, adapt, and contribute to building impactful
+          digital experiences.
+        </p>
+        <br />
+        <p>
+          My current focus is on strengthening my expertise in
+          <strong>Data Analytics & Frontend Development</strong>, while also
+          enhancing my problem-solving skills through
+          <strong>DSA and competitive coding</strong>.
+        </p>
+        <br />
+        <p>
+          Beyond coding, I am curious, adaptable, and always eager to learn new
+          technologies. My goal is to grow into a
+          <strong>Data Analyst / Software Developer</strong> who can build
+          impactful solutions and contribute to real-world innovations.
+        </p>
+      </section>
+
+      <section id="services" class="page">
+        <h2>Services</h2>
+        <p>Coming soon...</p>
+      </section>
+
+      <section id="projects" class="page">
+        <h2>My Projects</h2>
+        <p>Coming soon...</p>
+      </section>
+
+      <section id="contact" class="page">
+        <h2>Contact Me</h2>
+        <p>
+          If you’d like to get in touch, feel free to reach out using the form
+          below or connect with me on social media. I’d love to hear from you!
+        </p>
+        <br/>
+<div class="form-wrapper">
+      <form action="https://formspree.io/f/xovnlkbj" method="POST">
+    <label for="name"><strong>Your Name:</strong></label>
+    <input type="text" id="name" name="name" required>
+    <br/>
+    <label for="email"><strong>Your Email:</strong></label>
+    <input type="email" id="email" name="_replyto" required>
+    <br/>
+    <label for="message"><strong>Message:</strong></label>
+    <textarea id="message" placeholder="Write your Message here..." name="message" rows="7" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+  </div>
+
+  <div class="social-links">
+    <a href="https://pandeyharshit7277@gmail.com"><img src="Assets/mail.png"></a>
+    <a href="https://www.instagram.com/harshitpandey__7/profilecard/?igsh=bWcxZnBzZWl3N29y"><img src="Assets/insta.png"></a>
+    <a href="https://www.linkedin.com/in/harshit-pandey-668001217/"><img src="Assets/linkedin.png"></a>
+    <a href="https://wa.me/qr/GYFFYJHOG4TUD1"><img src="Assets/whatsapp.png"></a>
+  </div>
+
+      </section>
+    </main>
+    <footer>
+      <div class="first">
+        Harshit's <span class="halflogo-color">Portfolio</span>
+      </div>
+      <div class="second">&#169;2025 Harshit Pandey | All Rights Reserved.</div>
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Frontend Developer", "Data Engineer", "Data Analyst"],
+        typeSpeed: 50,
+        backSpeed: 50,
+
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
